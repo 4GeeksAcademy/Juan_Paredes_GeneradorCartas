@@ -7,5 +7,9 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  console.log("Hello Rigo from the console!");
+  let arraySimbolos=["♦", "♥", "♠", "♣"];
+  let randomSimbolo=arraySimbolos[Math.floor(Math.random()*arraySimbolos.length)]
+  document.getElementById("simbolo11").innerHTML=randomSimbolo;
+  document.getElementById("simbolo22").innerHTML=randomSimbolo;
+
 };
